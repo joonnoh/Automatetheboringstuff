@@ -1,11 +1,12 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 
 # Python script to launch a map in the browser using address as argument
 # in command line or clipboard
+# ./mapit.py [address]
 
 import webbrowser, sys, pyperclip
 
-# If an argument is given when running the script with command line
+# If an argument is given when running the script in command line, use as address
 if len(sys.argv) > 1:
 	address = ' '.join(sys.argv[1:])  # Address is string of arguments
  # If no arguments are given in the command line, copy clipboard content to address
