@@ -4,9 +4,15 @@
 # Presents data in PrettyTable format
 
 import requests, bs4, prettytable
+import datetime
+
+print('Loading...')
+
+# Print current date and time
+now = datetime.datetime.now()
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
 
 # Parse the home page
-print('Loading...')
 res = requests.get('https://coinmarketcap.com')
 res.raise_for_status()
 soup = bs4.BeautifulSoup(res.text, 'html.parser')
