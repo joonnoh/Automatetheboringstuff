@@ -11,6 +11,6 @@ Scrapes top 5 cryptocurrencies by market cap from CoinMarketCap.com and presents
 
 *getWeather.py*
 
-Requsts JSON data from openweathermap.org and prints out weather information for specified U.S. city
+Requests JSON data from openweathermap.org and prints out weather information for specified U.S. city
 
 ![getWeather.py](images/getWeather.png)
