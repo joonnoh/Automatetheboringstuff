@@ -11,6 +11,6 @@ Scrapes top 5 cryptocurrencies by market cap from CoinMarketCap.com and presents
 
 *getWeather.py*
 
-Print out weather information for specified U.S. city
+Prints out weather information for specified U.S. city
 
-![getWeather.py])images/getWeather.png)
+![getWeather.py](images/getWeather.png)
