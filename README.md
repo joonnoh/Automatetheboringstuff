@@ -1,5 +1,5 @@
 # Automatetheboringstuff
-Python scripts for automating tasks based on Automate The Boring Stuff
+Python/Bash scripts for automating tasks based on Automate The Boring Stuff
 
 **Examples:**
 
